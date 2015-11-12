@@ -31,7 +31,9 @@
 
     .brand-logo {
         top: 8px;
-        left: 40px;
+        @media (min-width: 992px) {
+            left: 40px;
+        }
     }
 }
 

@@ -16,8 +16,10 @@
 #backfeed-nav {
   background-color: #4285f4; }
   #backfeed-nav .brand-logo {
-    top: 8px;
-    left: 40px; }
+    top: 8px; }
+    @media (min-width: 992px) {
+      #backfeed-nav .brand-logo {
+        left: 40px; } }
 
 #info-button {
   background-color: #fbbc05;
