@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'odin_rounded';
+    src: url('../fonts/odin_rounded_-_bold-webfont.eot');
+    src: url('../fonts/odin_rounded_-_bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/odin_rounded_-_bold-webfont.woff2') format('woff2'),
+    url('../fonts/odin_rounded_-_bold-webfont.woff') format('woff'),
+    url('../fonts/odin_rounded_-_bold-webfont.ttf') format('truetype'),
+    url('../fonts/odin_rounded_-_bold-webfont.svg#odin_roundedbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'odin_rounded';
+    src: url('../fonts/odin_rounded_-_light-webfont.eot');
+    src: url('../fonts/odin_rounded_-_light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/odin_rounded_-_light-webfont.woff2') format('woff2'),
+    url('../fonts/odin_rounded_-_light-webfont.woff') format('woff'),
+    url('../fonts/odin_rounded_-_light-webfont.ttf') format('truetype'),
+    url('../fonts/odin_rounded_-_light-webfont.svg#odin_roundedlight') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+.odin {
+    font-family: 'odin_rounded';
+}
+
+#backfeed-nav  {
+    background-color: #4285f4;
+
+    .brand-logo {
+        top: 8px;
+        left: 40px;
+    }
+}
+
+#info-button {
+    background-color: #fbbc05;
+    line-height: 60px;
+    position:absolute;
+    top: 35px;
+    right: 15%;
+}
+#main-section {
+    margin-top: 77px;
+
+    @media (min-width: 992px) {
+        margin-left: -60px;
+    }
+}
+#bottom-section {
+    background-image: url('../img/pattern.png');
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
